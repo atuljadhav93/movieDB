@@ -3,7 +3,7 @@ import { BiSolidStar } from "react-icons/bi";
 function Rating({ data }) {
   return (
     <div>
-      <span className="text-base md:text-lg text-white w-14  flex items-center justify-center rounded-full bg-gradient-to-b from-[#f23aff] to-[#fd8b4a] font-semibold absolute left-1 bottom-1">
+      <span className="text-base md:text-lg bg-[#0072B1] text-white w-14  flex items-center justify-center rounded-full  font-semibold absolute left-1 bottom-1">
         <BiSolidStar />
         {data.toFixed(2)}
       </span>

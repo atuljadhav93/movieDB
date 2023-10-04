@@ -5,7 +5,7 @@ import TopRated from "./TopRated";
 
 function HomePage() {
   return (
-    <div className="bg-[#1b2330] shadow-2xl">
+    <div className="shadow-2xl">
       <HeroSection />
       <Trending />
       <TopRated />

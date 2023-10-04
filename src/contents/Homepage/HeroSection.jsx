@@ -44,7 +44,7 @@ function HeroSection() {
             Welcome to MovieDB
           </span>
           <span className="text-white font-semibold text-3xl mt-1 ">
-            Millions of Movies and TV shows. Explore now.
+            Millions of Movies and TV shows to discover. Explore now.
           </span>
 
           <div className="mt-8 w-full flex m-auto items-center justify-center ">
@@ -56,7 +56,7 @@ function HeroSection() {
               className="h-16 w-full rounded-l-full px-8 placeholder:text-xl outline-0 text-xl font-bold text-[#1b2330]"
             />
             <button
-              className="h-16 bg-white px-8 rounded-r-full text-white font-semibold text-2xl bg-gradient-to-b from-[#f23aff] to-[#fd8b4a] "
+              className="h-16 bg-[#0072B1] px-8 rounded-r-full text-white font-semibold text-2xl"
               onClick={() => {
                 searchQueryHandler("searchButton");
               }}

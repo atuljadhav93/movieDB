@@ -16,10 +16,8 @@ function TopRated() {
   return (
     <div className="mt-16">
       <ContentWrapper>
-        <div className="flex items-center justify-between my-2">
-          <span className="text-3xl py-2 text-white font-semibold ">
-            Top Rated
-          </span>
+        <div className="flex items-center my-2">
+          <span className="text-3xl py-2 font-semibold ">Top Rated</span>
           <SwitchTab data={["Movies", "TV Shows"]} onTabChange={onTabChange} />
         </div>
       </ContentWrapper>

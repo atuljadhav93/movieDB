@@ -16,8 +16,8 @@ function Popular() {
   return (
     <div className="mt-16">
       <ContentWrapper>
-        <div className="flex items-center justify-between my-2">
-          <span className="text-3xl py-2 text-white font-semibold ">
+        <div className="flex items-center my-2">
+          <span className="text-3xl py-2 font-semibold ">
             What&#39;s Popular
           </span>
           <SwitchTab data={["Movies", "TV Shows"]} onTabChange={onTabChange} />

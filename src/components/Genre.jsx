@@ -11,7 +11,7 @@ function Genre ({ genre }) {
         : genre.map((g) => {
             return (
               <span
-                className="text-sm  text-white  m-0.5 p-1 flex items-center justify-center rounded-full bg-gradient-to-b from-[#f23aff]/90 to-[#fd8b4a]/90 font-semibold "
+                className="text-sm bg-[#0072B1] text-white  m-0.5 p-1 flex items-center justify-center rounded-full font-semibold "
                 key={g}
               >
                 {allGenre[g]?.name}
